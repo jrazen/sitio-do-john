@@ -1,11 +1,17 @@
 body {
-    background-image: url('https://aasnova.org/wp-content/uploads/2020/01/Giantplanettinystar.jpg');
+    background-color: white;
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
   }
+  img {
+    margin:10px;
+  }
   .menu {
-    background-color: #D8BFD8;
+    background-color:#262626;
+    font-family: 'Arial Narrow Bold';
+    border: 40px;
+    padding: 5px;
   }
   
   .menu li {
@@ -15,8 +21,17 @@ body {
     display: flex;
     justify-content: space-around;
   }
+  .menu ul a {
+    color: whitesmoke;
+  }
+  .menu-lateral {
+
+  }
+  .menu-lateral li {
+    list-style: none;
+  }
   a {
-    color: green;
+    color: #262626;
     text-decoration:none;
   }
   
@@ -26,13 +41,17 @@ body {
   
   .site-subtitle,
   .site-title{
-    color: white;
-    text-align: center;  
+    color: #262626;
+    text-align: left;  
   }
   
   .site-subtitle{
     font-style: italic;
   }
   
+  .site-title{
+    padding: 5px;
+    margin: 10px;
+  }
   
   

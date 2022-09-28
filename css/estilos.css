@@ -100,9 +100,14 @@ body {
     margin: 10px;
   }
 
-  .titulo-links ul{
-    display: flex;
-    justify-content: space-around;
+  .titulo-links{
+    
+	  display:flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+	  align-items: center;
+	  padding: 25px;
+	  margin: 10px;
   }
   
   

@@ -9,6 +9,8 @@ body {
   position: relative; 
 	left: 40%;
 	<!-- top: 10%; -->
+  	margin: 10px;
+    	padding: 25px;
   }
 
   .caixa-links li {

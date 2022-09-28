@@ -6,9 +6,7 @@ body {
   }
 
   .caixa-links {
-  position: relative; 
-	left: 40%;
-	<!-- top: 10%; -->
+  	align-content: center;
   	margin: 10px;
     	padding: 25px;
   }

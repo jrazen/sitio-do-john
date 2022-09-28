@@ -6,7 +6,7 @@ body {
   }
 
   .caixa-links {
-  	align-content: center;
+  	margin: auto;
   	margin: 10px;
     	padding: 25px;
   }

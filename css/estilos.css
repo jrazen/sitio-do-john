@@ -33,11 +33,12 @@ body {
     margin:10px;
   }
 
-  .menu {
-    background-color:#262626;
-    font-family: 'Arial Narrow Bold';
-    border: 40px;
-    padding: 5px;
+.menu {
+	background-color:#262626;
+	font-family: 'Arial Narrow Bold';
+	font-color: '#0FFF50';
+	border: 40px;
+	padding: 5px;
   }
   
   .menu li {

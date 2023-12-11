@@ -5,7 +5,10 @@ body {
   }
 .main-title {
 	padding: 20px;
-	align: center;
+	display: block;
+  	margin: auto;
+  	max-width: 100%;
+  	max-height: 100%;
 }
 .main-title {
 	padding: 20px;

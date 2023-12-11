@@ -36,7 +36,6 @@ body {
 .menu {
 	background-color:#262626;
 	font-family: 'Arial Narrow Bold';
-	font-color: '#0FFF50';
 	border: 40px;
 	padding: 5px;
   }
@@ -53,10 +52,11 @@ body {
   .menu ul a {
     color: whitesmoke;
   }
-
-  .menu-lateral {
-    box-shadow: 3px 3px 2px 0px #262626;
-    border: 3px solid;
+.menu-lateral {
+	box-shadow: 3px 3px 2px 0px #262626;
+	border: 3px solid;
+	font-color: '#0FFF50';
+	text-align: left;
   }
 
   .menu-lateral li {

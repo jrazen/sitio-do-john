@@ -1,8 +1,7 @@
 body {
-    background-image: url('img/spaceBG.png');
-    background-size: auto 100vh;
-    font-family: Arial;
-    height: 100vh;
+    	background-image: url('img/spaceBG.png');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
   }
 
   .caixa-links {

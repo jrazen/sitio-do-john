@@ -2,7 +2,6 @@ body {
     	background-image: url('../img/spaceBG.png');
  	background-size: cover;
  	background-repeat: no-repeat;
-	display: flex;
   }
 .main-title {
 	padding: 20px;

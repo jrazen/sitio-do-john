@@ -5,7 +5,7 @@ body {
   }
 .main-title {
 	padding: 20px;
-	text-align: center;
+	align: center;
 }
 .main-title {
 	padding: 20px;
@@ -55,7 +55,6 @@ body {
 .menu-lateral {
 	box-shadow: 3px 3px 2px 0px #262626;
 	border: 3px solid;
-	font-color: '#0FFF50';
 	text-align: left;
   }
 

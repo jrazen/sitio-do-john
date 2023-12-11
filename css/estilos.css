@@ -2,6 +2,7 @@ body {
     	background-image: url('../img/spaceBG.png');
  	background-size: cover;
  	background-repeat: no-repeat;
+	text-align: center;
   }
   .caixa-links {
 	display: flex;

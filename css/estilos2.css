@@ -1,1 +1,3 @@
-background-image:'img/spaceBG.png;
+body {
+    background-image: url('img/spaceBG.png');
+  }

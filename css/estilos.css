@@ -58,10 +58,11 @@ body {
 	text-align: left;
   }
 
-  .menu-lateral li {
-    list-style: none;
-    margin: 3px;
-    padding: 3px;
+.menu-lateral li {
+	list-style: none;
+	margin: 3px;
+	padding: 3px;
+	color: #0FFF50;
   }
 
   .em-construcao {

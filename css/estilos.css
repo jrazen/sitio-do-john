@@ -3,6 +3,12 @@ body {
  	background-size: cover;
  	background-repeat: no-repeat;
   }
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 .main-title {
 	padding: 20px;
 	display: block;
@@ -85,6 +91,10 @@ body {
 	display: flex;
   }
 .em-construcao {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 3px 3px 2px 0px #262626;
 	padding: 10px;

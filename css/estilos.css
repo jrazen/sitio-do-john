@@ -2,6 +2,7 @@ body {
     	background-image: url('../img/spaceBG.png');
  	background-size: cover;
  	background-repeat: no-repeat;
+	display: flex;
   }
 .main-title {
 	padding: 20px;
@@ -64,6 +65,7 @@ body {
  	width: 80%;
 	margin: auto;
 	box-sizing: border-box;
+	display: flex;
   }
 
 .menu-lateral li {
@@ -72,7 +74,17 @@ body {
 	padding: 3px;
 	color: #0FFF50;
   }
-
+.box-central {
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 3px 3px 2px 0px #262626;
+	border: 3px solid;
+	text-align: left;
+	padding: 10px;
+ 	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+	display: flex;
+  }
 .em-construcao {
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 3px 3px 2px 0px #262626;

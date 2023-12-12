@@ -83,8 +83,22 @@ header {
   width: 150px;
   heigth: auto;
 }
-/*
-.menu-lateral {
+.container-datavis {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  color: #0FFF50;
+  font-family: courier, sans-serif;
+  font-size: large;
+}
+.container-datavis img {
+  width: 50%;
+  heigth: auto;
+}
+
+.text-box {
 	background-color: rgba(0,0,0,0);
 	border: 3px solid #0FFF50;
 	text-align: left;
@@ -94,7 +108,10 @@ header {
 	box-sizing: border-box;
 	flex: 1;
 	align-self: start;
+	color: #0FFF50;
+  font-family: courier, sans-serif;
   }
+  /*
 .menu-lateral li {
 	list-style: none;
 	margin: 3px;

@@ -64,14 +64,18 @@ header {
   }
 .container {
   display: flex;
-  flex: 1;
+  
   justify-content: space-between;
   align-items: stretch;
   margin-top: 2%;
-  margin-bottom: 30%;
+  margin-bottom: 10%;
   color: #0FFF50;
   font-family: courier, sans-serif;
   font-size: large;
+}
+.container img {
+  width: 150px;
+  heigth: auto;
 }
 .menu-lateral {
 	background-color: rgba(0,0,0,0);
@@ -98,7 +102,6 @@ header {
  	width: 80%;
 	margin: 5px;
 	box-sizing: border-box;
-	flex: 3;
 	align-self: stretch;
   }
 .em-construcao {

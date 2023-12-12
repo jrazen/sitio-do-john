@@ -77,6 +77,7 @@ header {
   width: 150px;
   heigth: auto;
 }
+/*
 .menu-lateral {
 	background-color: rgba(0,0,0,0);
 	border: 3px solid #0FFF50;
@@ -93,7 +94,7 @@ header {
 	margin: 3px;
 	padding: 3px;
 	color: #0FFF50;
-	}
+	}*/
 .box-central {
 	background-color: rgba(0,0,0,0);
 	border: 3px solid #0FFF50;
@@ -101,8 +102,7 @@ header {
 	padding: 20px;
  	width: 80%;
 	margin: 5px;
-	box-sizing: border-box;
-	align-self: stretch;
+	box-sizing: border-box;;
   }
 .em-construcao {
 	/*position: fixed;*/
@@ -124,7 +124,7 @@ header {
     font-size: large;
   }
 
- 
+ /*
   a {
     font-weight: bold;
     text-decoration:none;
@@ -132,7 +132,7 @@ header {
   
   a:hover {
     text_decoration: underline;
-  }
+  }*/
   
   .site-subtitle,
   .site-title{

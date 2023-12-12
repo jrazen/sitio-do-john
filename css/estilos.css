@@ -19,10 +19,13 @@ header {
 	padding: 20px;
 }
   .caixa-links {
-	display: flex;
-	justify-content: center;
-  	margin-top: 10px;
-    	padding: 10px;
+	  display: flex;
+	  justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: courier, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
   }
 
   .caixa-links li {
@@ -30,6 +33,10 @@ header {
     margin: 6px;
     padding: 6px;
   }
+  .caixa-links a {
+      text-decoration:none;
+      color: #0FFF50;
+      }
   
   .flames {
   position: relative; 
@@ -46,7 +53,7 @@ header {
 	font-family: 'Arial Narrow Bold';
 	border: 40px;
 	padding: 5px;
-	position: fixed;
+
   }
   
   .menu li {
@@ -170,4 +177,12 @@ header {
 	  align-items: center;
 	  padding: 25px;
 	  margin: 10px;
+	  background-color: rgba(255, 255, 255, 0.7);
+	  box-shadow: 3px 3px 2px 0px #262626;
+	  width: 25%;
+	  text-align: center;
+	  margin: auto;
+	  font-family: courier, sans-serif;
+    font-size: large;
+    font-weight: bold;
   }

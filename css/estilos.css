@@ -64,7 +64,6 @@ header {
   }
 .container {
   display: flex;
-  
   justify-content: space-between;
   align-items: stretch;
   margin-top: 2%;
@@ -102,8 +101,17 @@ header {
 	padding: 20px;
  	width: 80%;
 	margin: 5px;
-	box-sizing: border-box;;
+	box-sizing: border-box;
+	flex: 1;
   }
+  
+.main-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  flex: 3;
+  }
+
 .em-construcao {
 	/*position: fixed;*/
 	bottom: 0;
@@ -119,11 +127,16 @@ header {
 	text-align: center;
   }
 
-  .em-construcao p {
+.em-construcao p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
   }
-
+  
+.galeria {
+  text-align: center;
+  color: #0FFF50;
+  font-family: courier, sans-serif;
+  }
  /*
   a {
     font-weight: bold;

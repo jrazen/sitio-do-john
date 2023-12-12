@@ -8,17 +8,20 @@ header {
 	left: 0;
 	width: 100%;
 }
-.main-title {
+img {
+    margin:10px;
+  }
+.box-central {
+	background-color: rgba(0,0,0,0);
+	border: 3px solid #0FFF50;
+	text-align: justify;
 	padding: 20px;
-	display: block;
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-.main-title {
-	padding: 20px;
-}
-  .caixa-links {
+ 	width: 80%;
+	margin: 5px;
+	box-sizing: border-box;
+	flex: 1;
+  }
+.caixa-links {
 	  display: flex;
 	  justify-content: center;
     margin-top: 10px;
@@ -27,48 +30,15 @@ header {
     font-size: x-large;
     font-weight: bold;
   }
-
-  .caixa-links li {
+.caixa-links li {
     list-style: none;
     margin: 6px;
     padding: 6px;
   }
-  .caixa-links a {
+.caixa-links a {
       text-decoration:none;
       color: #0FFF50;
       }
-  
-  .flames {
-  position: relative; 
-	left: 30%;
-	top: 10%;
-  }
-
-  img {
-    margin:10px;
-  }
-
-.menu {
-	background-color:#262626;
-	font-family: 'Arial Narrow Bold';
-	border: 40px;
-	padding: 5px;
-
-  }
-  
-  .menu li {
-    list-style: none;
-    padding: 10px;
-  }
-
-  .menu ul {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .menu ul a {
-    color: whitesmoke;
-  }
 .container {
   display: flex;
   justify-content: space-between;
@@ -96,46 +66,12 @@ header {
 .container-datavis img {
   width: 50%;
   heigth: auto;
-}
-
-.text-box {
-	background-color: rgba(0,0,0,0);
-	border: 3px solid #0FFF50;
-	text-align: left;
-	padding: 10px;
- 	width: 80%;
-	margin: auto;
-	box-sizing: border-box;
-	flex: 1;
-	align-self: start;
-	color: #0FFF50;
-  font-family: courier, sans-serif;
   }
-  /*
-.menu-lateral li {
-	list-style: none;
-	margin: 3px;
-	padding: 3px;
-	color: #0FFF50;
-	}*/
-.box-central {
-	background-color: rgba(0,0,0,0);
-	border: 3px solid #0FFF50;
-	text-align: justify;
-	padding: 20px;
- 	width: 80%;
-	margin: 5px;
-	box-sizing: border-box;
-	flex: 1;
+.container-vid {
+  display: center;
+  padding: 50px;
+  text-align: center;
   }
-  
-.main-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-  flex: 3;
-  }
-
 .em-construcao {
 	/*position: fixed;*/
 	bottom: 0;
@@ -150,17 +86,103 @@ header {
 	box-sizing: border-box;
 	text-align: center;
   }
-
 .em-construcao p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
   }
-  
+.flames {
+  position: relative; 
+	left: 30%;
+	top: 10%;
+  }
 .galeria {
   text-align: center;
   color: #0FFF50;
   font-family: courier, sans-serif;
   }
+.main-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  flex: 3;
+  }
+.main-title {
+	padding: 20px;
+	display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  }
+.main-title {
+	padding: 20px;
+  }
+.menu {
+	background-color:#262626;
+	font-family: 'Arial Narrow Bold';
+	border: 40px;
+	padding: 5px;
+  }
+.menu li {
+  list-style: none;
+  padding: 10px;
+  }
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  }
+.menu ul a {
+  color: whitesmoke;
+  }
+.site-subtitle,
+.site-title{
+  color: #262626;
+  text-align: left;  
+  }
+.site-subtitle{
+  font-style: italic;
+  }
+.site-title{
+  padding: 5px;
+  margin: 10px;
+  }
+.text-box {
+	background-color: rgba(0,0,0,0);
+	border: 3px solid #0FFF50;
+	text-align: left;
+	padding: 10px;
+ 	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+	flex: 1;
+	align-self: start;
+	color: #0FFF50;
+  font-family: courier, sans-serif;
+  }
+.titulo-links {
+  display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	margin: 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 3px 3px 2px 0px #262626;
+	width: 25%;
+	text-align: center;
+	margin: auto;
+	font-family: courier, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  }
+  
+    /*
+.menu-lateral li {
+	list-style: none;
+	margin: 3px;
+	padding: 3px;
+	color: #0FFF50;
+	}*/
+
  /*
   a {
     font-weight: bold;
@@ -170,36 +192,3 @@ header {
   a:hover {
     text_decoration: underline;
   }*/
-  
-  .site-subtitle,
-  .site-title{
-    color: #262626;
-    text-align: left;  
-  }
-  
-  .site-subtitle{
-    font-style: italic;
-  }
-  
-  .site-title{
-    padding: 5px;
-    margin: 10px;
-  }
-
-  .titulo-links{
-    
-	  display:flex;
-	  flex-direction: row;
-	  justify-content: center;
-	  align-items: center;
-	  padding: 25px;
-	  margin: 10px;
-	  background-color: rgba(255, 255, 255, 0.7);
-	  box-shadow: 3px 3px 2px 0px #262626;
-	  width: 25%;
-	  text-align: center;
-	  margin: auto;
-	  font-family: courier, sans-serif;
-    font-size: large;
-    font-weight: bold;
-  }
